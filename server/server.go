@@ -7,7 +7,7 @@ import (
 	"os"
 	"sync"
 
-	pb "github.com/eben/sector-memory/proto"
+	pb "github.com/xgswust/sector-memory/proto"
 
 	"google.golang.org/grpc"
 )

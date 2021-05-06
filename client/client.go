@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	pb "github.com/eben/sector-memory/proto"
+	pb "github.com/xgswust/sector-memory/proto"
 	"google.golang.org/grpc"
 )
 

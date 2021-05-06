@@ -1,4 +1,4 @@
-module github.com/eben/sector-memory
+module github.com/xgswust/sector-memory
 
 go 1.14
 

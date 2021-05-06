@@ -6,8 +6,8 @@ import (
 	"os"
 	"time"
 
-	client "github.com/eben/sector-memory/client"
-	server "github.com/eben/sector-memory/server"
+	client "github.com/xgswust/sector-memory/client"
+	server "github.com/xgswust/sector-memory/server"
 )
 
 func main() {
