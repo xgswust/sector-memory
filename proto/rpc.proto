@@ -1,0 +1,20 @@
+syntax = "proto3"; //指定proto版本
+
+package proto;
+
+message SectorMemRequest{  // 定义请求信息
+    string storageID = 1;
+    uint64 actorID = 2;
+    uint64 sectorNumber = 3;
+    int64 sectorFileType = 4;
+    bool primary = 5;
+
+}
+message SectorMemResponse{  // 定义响应信息
+    uint64 answer = 1;
+}
+
+service Grpc{
+    rpc DeclareSectorMemory(SectorMemRequest) returns(SectorMemResponse);
+    rpc StorageDropSectorMemory(SectorMemRequest) returns(SectorMemResponse);
+}
